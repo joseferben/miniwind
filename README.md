@@ -23,3 +23,7 @@ The compressed file is about 5KB in size.
 - Hyphens
 
 _Warning: The feature set can change at any time. The goal is to keep the CSS file small in size._
+
+## Contributing
+
+Adjust the regex in the `safelist` and run `npx tailwindcss --config tailwind.config.js --input main.css --output miniwind.css`
