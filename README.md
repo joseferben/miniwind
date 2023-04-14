@@ -1,6 +1,6 @@
-# Miniwind
+# miniwind
 
-Miniwind is a subset of TailwindCSS that is reasonably small so that it can be used without a build step.
+miniwind is a subset of TailwindCSS that is reasonably small so that it can be used without a build step.
 
 It mainly contains utility classes for layout and spacing.
 
