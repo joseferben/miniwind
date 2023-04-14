@@ -4,7 +4,9 @@ miniwind is a subset of TailwindCSS that is reasonably small so that it can be u
 
 It mainly contains utility classes for layout and spacing.
 
-Use it with something like [PicoCSS](https://picocss.com/) which provides sensible defaults for typography, colors and responsive design.
+Use it with something like [pico.css](https://picocss.com/) which provides sensible defaults for typography, colors and responsive design.
+
+miniwind **does not** contain responsive variants or utilities for colors or typography, as those things should be taken care of by your (classless) CSS framework.
 
 ## Getting started
 
@@ -26,4 +28,8 @@ _Warning: The feature set can change at any time. The goal is to keep the CSS fi
 
 ## Contributing
 
-Adjust the regex in the `safelist` and run `npx tailwindcss --config tailwind.config.js --input main.css --output miniwind.css`
+Adjust the regex in the `safelist` and run
+
+`npx tailwindcss --config tailwind.config.js --input main.css --output miniwind.css`
+
+If you feel like something is missing or too much, feel free to open an issue or a pull request.
