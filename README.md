@@ -21,3 +21,5 @@ The compressed file is about 5KB in size.
 - Flex
 - Whitespace
 - Hyphens
+
+_Warning: The feature set can change at any time. The goal is to keep the CSS file small in size._
