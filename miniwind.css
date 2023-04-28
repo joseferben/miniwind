@@ -2118,6 +2118,14 @@
   justify-self: stretch
 }
 
+.text-ellipsis {
+  text-overflow: ellipsis
+}
+
+.text-clip {
+  text-overflow: clip
+}
+
 .hyphens-none {
   -webkit-hyphens: none;
           hyphens: none
@@ -3769,4 +3777,75 @@
 
 .pt-96 {
   padding-top: 24rem
+}
+
+.text-left {
+  text-align: left
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-right {
+  text-align: right
+}
+
+.text-justify {
+  text-align: justify
+}
+
+.text-start {
+  text-align: start
+}
+
+.text-end {
+  text-align: end
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity))
+}
+
+.text-current {
+  color: currentColor
+}
+
+.text-inherit {
+  color: inherit
+}
+
+.text-transparent {
+  color: transparent
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
 }
