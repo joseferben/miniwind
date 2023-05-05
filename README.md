@@ -1,5 +1,7 @@
 # miniwind
 
+*Archived:* I wasn't able to find a good subset that keeps PageSpeed and me as developer happy. 
+
 miniwind is a subset of TailwindCSS that is reasonably small so that it can be used without a build step.
 
 It mainly contains utility classes for layout and spacing.
